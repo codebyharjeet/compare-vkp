@@ -1,0 +1,127 @@
+ ---------------------------------------------------------
+                                                          
+                      Using Pyscf:
+                                                          
+ ---------------------------------------------------------
+                                                          
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = atom
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 1000
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /localscratch/2959483/tmplstdhwvf
+max_memory 8000 MB (current use 252 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from superposition of atomic densities.
+init E= -642.246726458342
+  HOMO = -0.479442548643665  LUMO = 0.0376567558578114
+cycle= 1 E= -641.221023708221  delta_E= 1.03  |g|=  1.1  |ddm|= 2.76
+  HOMO = -0.104000230785345  LUMO = 0.353399852434584
+cycle= 2 E= -641.367580789553  delta_E= -0.147  |g|= 0.68  |ddm|= 1.21
+  HOMO = -0.220827006480692  LUMO = 0.364713172679619
+cycle= 3 E= -641.452532548053  delta_E= -0.085  |g|= 0.0632  |ddm|= 0.485
+  HOMO = -0.220449994039897  LUMO = 0.36865280956323
+cycle= 4 E= -641.45355673044  delta_E= -0.00102  |g|= 0.0246  |ddm|= 0.0773
+  HOMO = -0.222755557302971  LUMO = 0.37089693527938
+cycle= 5 E= -641.453717817032  delta_E= -0.000161  |g|= 0.00577  |ddm|= 0.0275
+  HOMO = -0.222098378893427  LUMO = 0.370375932128691
+cycle= 6 E= -641.453728474739  delta_E= -1.07e-05  |g|= 0.00139  |ddm|= 0.00701
+  HOMO = -0.222410838041353  LUMO = 0.370351205749247
+cycle= 7 E= -641.453729563264  delta_E= -1.09e-06  |g|= 0.000369  |ddm|= 0.00255
+  HOMO = -0.222387469146322  LUMO = 0.370384160705842
+cycle= 8 E= -641.453729638585  delta_E= -7.53e-08  |g|= 0.000106  |ddm|= 0.000709
+  HOMO = -0.222403718428662  LUMO = 0.370382401625897
+cycle= 9 E= -641.453729643232  delta_E= -4.65e-09  |g|= 4.56e-05  |ddm|= 0.000181
+  HOMO = -0.222406971025649  LUMO = 0.370381327207992
+cycle= 10 E= -641.453729643793  delta_E= -5.61e-10  |g|= 1.22e-05  |ddm|= 4.91e-05
+  HOMO = -0.222406128846521  LUMO = 0.370382479753046
+Extra cycle  E= -641.453729643843  delta_E= -5e-11  |g|= 7.12e-06  |ddm|= 1.82e-05
+converged SCF energy = -641.453729643843
+
+System and Method:
+[('P', (-0.608764, 0.057764, 0.063172)), ('O', (-1.791833, 0.171885, -0.845512)), ('O', (0.034786, -1.488625, -0.083671)), ('O', (-0.616182, 0.477213, 1.512727)), ('H', (1.228282, 1.23667, 0.088944)), ('O', (0.773056, 0.799508, -0.647063)), ('H', (0.980654, -1.254416, -0.088597))]
+Basis set                                      :    6-31g(d)
+Number of Orbitals                             :        78
+Number of electrons                            :        50
+Number of alpha electrons                      :        25
+Number of beta electrons                       :        25
+Nuclear Repulsion                              :  263.196087645532 
+Electronic SCF energy                          : -904.649817289375 
+SCF Energy                                     : -641.453729643843189
+ AO->MO
+Manual HF energy =  -641.453729643845918
+******** < Constructing Hamiltonian in active space > ********
+Number of frozen orbitals =  9
+ NElectrons:   16   16
+ ecore: -733.89454017
+Manual HF energy =  -641.453729643845577
+One-body =  -323.7014252596
+Two-body =   152.9461481436
+ HF Energy:  -641.453729643845577
+MO energies:
+[-79.88474298 -20.3990662  -20.39110286 -20.3048148  -20.30107202
+  -7.40673859  -5.30551365  -5.30467518  -5.3036242   -1.21196695
+  -1.14978001  -1.09043172  -1.0526147   -0.58221998  -0.52052847
+  -0.46387289  -0.42516348  -0.39099472  -0.37275218  -0.33445884
+  -0.31272614  -0.27455188  -0.26152702  -0.23856503  -0.22240613
+   0.37038248   0.42803931   0.48530969   0.51055564   0.54388054
+   0.57716332   0.68956614   0.70388346   0.76695959   0.83415537
+   1.05535827   1.10372812   1.2042031    1.23163037   1.28147461
+   1.30754253   1.37523411   1.39076552   1.42858401   1.47008871
+   1.49225346   1.51187496   1.5343956    1.56801428   1.58670337
+   1.66166135   1.68442544   1.71889108   1.74436032   1.93491951
+   1.98142586   2.07564467   2.19745433   2.21426129   2.2319191
+   2.23805008   2.28240303   2.30350843   2.31035057   2.33694503
+   2.3415172    2.3629857    2.478177     2.6092627    2.6617571
+   2.76057417   2.80888122   2.87948839   2.89970145   3.0216932
+   3.10417505   3.3587042    3.41248802]
+E(MP2) = -642.303682528625  E_corr = -0.849952884781449
+E(SCS-MP2) = -642.267299782217  E_corr = -0.813570138373668
+Canonical MP2 Energy (a.u.):-642.3036825286246767
+
+******** <class 'pyscf.cc.uccsd.UCCSD'> ********
+CC2 = 0
+CCSD nocc = (16, 16), nmo = (69, 69)
+frozen orbitals 9
+max_cycle = 50
+direct = 0
+conv_tol = 1e-07
+conv_tol_normt = 1e-06
+diis_space = 6
+diis_start_cycle = 0
+diis_start_energy_diff = 1e+09
+max_memory 8000 MB (current use 6116 MB)
+Init t2, MP2 energy = -0.832615452705364
+Init E_corr(UCCSD) = -0.832615452721427
+cycle = 1  E_corr(UCCSD) = -0.818667350914998  dE = 0.0139481018  norm(t1,t2) = 0.116891
+cycle = 2  E_corr(UCCSD) = -0.840091957916713  dE = -0.021424607  norm(t1,t2) = 0.0337266
+cycle = 3  E_corr(UCCSD) = -0.839876252482345  dE = 0.000215705434  norm(t1,t2) = 0.0192628
+cycle = 4  E_corr(UCCSD) = -0.842966266388004  dE = -0.00309001391  norm(t1,t2) = 0.00722171
+cycle = 5  E_corr(UCCSD) = -0.843019150743505  dE = -5.28843555e-05  norm(t1,t2) = 0.00136904
+cycle = 6  E_corr(UCCSD) = -0.842903768621982  dE = 0.000115382122  norm(t1,t2) = 0.000537649
+cycle = 7  E_corr(UCCSD) = -0.842891792401365  dE = 1.19762206e-05  norm(t1,t2) = 0.00012875
+cycle = 8  E_corr(UCCSD) = -0.842895150402394  dE = -3.35800103e-06  norm(t1,t2) = 5.31086e-05
+cycle = 9  E_corr(UCCSD) = -0.842896677658255  dE = -1.52725586e-06  norm(t1,t2) = 2.27095e-05
+cycle = 10  E_corr(UCCSD) = -0.842896426560124  dE = 2.51098131e-07  norm(t1,t2) = 7.44223e-06
+cycle = 11  E_corr(UCCSD) = -0.842896365717585  dE = 6.08425388e-08  norm(t1,t2) = 3.36694e-06
+cycle = 12  E_corr(UCCSD) = -0.842896321445547  dE = 4.42720386e-08  norm(t1,t2) = 1.33087e-06
+cycle = 13  E_corr(UCCSD) = -0.842896310290121  dE = 1.11554259e-08  norm(t1,t2) = 4.72515e-07
+UCCSD converged
+E(UCCSD) = -642.2966259541333  E_corr = -0.8428963102901208
+Size of the active space:  22
+ Rotate orbitals
+One-body =  -323.7014252596
+Two-body =   152.9461481436
+ New HF Energy:  -641.453729643845577
+Manual CCSD E_corr = -0.842896310290114
